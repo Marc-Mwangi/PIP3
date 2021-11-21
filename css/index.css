@@ -37,4 +37,17 @@ body {
     text-align: center;
     height: 400px;
 }
+.what-we-do {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 70px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.portfolio{
+    text-align: center;
+}
 
