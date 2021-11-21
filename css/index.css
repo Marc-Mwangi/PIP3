@@ -23,5 +23,13 @@ body {
  .banner-cotext h6 {
      font-size: 5px;
  }
+ .about-us{
+     position: relative;
+     background-color: white;
+     left: 10%;
+     text-align: center;
+     width: 80%;
+     padding: 20px;
+ }
 
 
