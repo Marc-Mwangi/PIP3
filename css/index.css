@@ -45,6 +45,7 @@ body {
 .icon{
     display: flex;
     justify-content: space-evenly;
+    position: relative;
 
 }
 .portfolio{
@@ -58,6 +59,7 @@ body {
     background-image: url("../assets/backgrounds/c_image.jpg");
     color: white;
     height: 500px;
+    text-align: center;
 }
 .form {
     background-color: transparent;
@@ -65,4 +67,14 @@ body {
 }
 ::placeholder {
     color: white;
+}
+.inf {
+    position: absolute;
+    width: 20%;
+    left: 13%;
+    top: -30%;
+    font-size: 12px;
+    background-color: white;
+    
+    
 }
