@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     position: relative;
+    left: 4%;
 
 }
 .portfolio{
@@ -88,7 +89,7 @@ body {
     position: absolute;
     width: 20%;
     font-size: 12px;
-    left: 68%;
-    top: -40%;
+    left: 65%;
+    top: -10%;
     background-color: white;
 }
