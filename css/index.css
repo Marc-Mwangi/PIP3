@@ -53,3 +53,9 @@ body {
 .col-md-2{
     padding: 5px;
 }
+.contact{
+    text-align: center;
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    color: white;
+    height: 600px;
+}
