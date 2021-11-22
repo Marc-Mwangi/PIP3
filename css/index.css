@@ -57,5 +57,12 @@ body {
     text-align: center;
     background-image: url("../assets/backgrounds/c_image.jpg");
     color: white;
-    height: 600px;
+    height: 500px;
+}
+.form {
+    background-color: transparent;
+    color: white;
+}
+::placeholder {
+    color: white;
 }
