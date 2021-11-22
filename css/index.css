@@ -50,4 +50,6 @@ body {
 .portfolio{
     text-align: center;
 }
-
+.col-2{
+    padding: 20px;
+}
