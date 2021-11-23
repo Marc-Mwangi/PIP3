@@ -48,9 +48,11 @@
                     </div>
                 </div>
                 <div id="dev" >
-                    <img src="./assets/services_icons/dev_icon.png">
-                    <br>
-                    <h6>DEVELOPMENT</h6>
+                    <div class="ic2">
+                        <img src="./assets/services_icons/dev_icon.png">
+                        <br>
+                        <h6>DEVELOPMENT</h6>
+                    </div>
                     <div class="inf2">
                         <p>All engineers arer fluent in the latest enterprise, mobile and web development technologies.</p>
                         <p>They collaborate with your team to write and improve code on a daily basis, using proven practices such as test driven development and pair programming.</p>
@@ -123,14 +125,15 @@
                 $('.inf2').hide();
                 $('.inf3').hide();
                 $('#design').on('click', function(){
+                    $('.ic').toggle();
                     $('.inf').toggle();
                 });
                 $('#dev').on('click', function() {
+                    $('.ic2').toggle();
                     $('.inf2').toggle();
                 });
                 $('#pm').on('click', function() {
-                    $('.ic3').toggle
-                    ();
+                    $('.ic3').toggle();
                     $('.inf3').toggle();
                 });
             });
