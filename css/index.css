@@ -93,3 +93,15 @@ body {
     top: -10%;
     background-color: white;
 }
+.fi{
+    position: relative;
+    left: 15%;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer {
+    text-align: center;
+    font-size: 10px;
+}
