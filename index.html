@@ -97,12 +97,17 @@
             <br><br><br><br>
             <h2>CONTACT US</h2>
             <br><br>
-            <input class="form" placeholder="Name..." type="text">
-            <input class="form" placeholder="Email..." type="text">
-            <br><br>
-            <div>
-                <textarea class="form" placeholder="Your message here" name="comment" rows="8" cols="50">Your message here...</textarea>
-            </div>
+            
+            <form id="con" method="POST" onsubmit="return false">
+                <input class="form" placeholder="Name..." type="text">
+                <input class="form" placeholder="Email..." type="text">
+            
+                <br><br>
+                <div>
+                <textarea class="form" placeholder="Your message here..." name="comment" rows="8" cols="50"></textarea>
+                </div>
+            </form>
+            <div id="post" onclick="sub()" onsubmit="return false"></div>
         </div>
         <div class="footer">
             <div class="fi">
@@ -120,6 +125,7 @@
             <p>DELANI STUDIO</p>
             <p>2019</p>
         </div>
+        <script src="./js/main.js"></script>
         <script src="./js/jquery/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
